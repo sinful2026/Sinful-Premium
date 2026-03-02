@@ -9,6 +9,7 @@ Sinful = {
     [1085419] = true; -- // $ Dabi
     [9026124392] = true; -- // YungSlime
     [9026124392] = true; -- // $ Dabi's gf
+    [7311118374] = true; -- // testing account
 }
 
 --// Don't mess with anything below this
