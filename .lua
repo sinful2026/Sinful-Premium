@@ -1,15 +1,11 @@
 -- // Only @corruptedluau & @otgdabi can edit this lol -- //
 -- // https://discord.gg/getsinful -- //
 
-Allowed = {
+Premium = {
     [2422912891] = true; -- // linux
 }
 
-Staff = {
-    [6154195611] = true; -- // throwaway
-}
-
-Hierarchy = {
+Sinful = {
     [1085419] = true; -- // $ Dabi
     [9026124392] = true; -- // YungSlime
     [9026124392] = true; -- // $ Dabi's gf
@@ -23,10 +19,10 @@ function initiateNames()
             if not v.Character.UpperTorso:FindFirstChild('OriginalSize') then
                 v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎] ' .. v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName)
             end
-            if Staff[v.UserId] then
+            if Premium[v.UserId] then
                 v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] ' .. v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName)
             end
-            if Hierarchy[v.UserId] then
+            if Sinful[v.UserId] then
                 v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑] ' .. v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName)
             end
         end
@@ -34,4 +30,4 @@ function initiateNames()
 end
 
 local successful, errored = pcall(initiateNames)
-return Hierarchy
+return FOUNDERS
