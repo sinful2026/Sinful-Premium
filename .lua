@@ -30,4 +30,4 @@ function initiateNames()
 end
 
 local successful, errored = pcall(initiateNames)
-return FOUNDERS
+return Sinful
