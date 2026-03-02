@@ -1,4 +1,4 @@
--- // Only @corruptedluau & @otgdabi can edit this lol -- //
+-- // Only @corruptedluau & @antiaimviewer / @antiaimview can edit this lol -- //
 -- // https://discord.gg/getsinful -- //
 
 Premium = {
